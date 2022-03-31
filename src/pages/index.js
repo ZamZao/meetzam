@@ -1,7 +1,8 @@
 import * as React from "react";
-import { GlobalStyles } from "../components/globalStyles";
+import { GlobalStyles} from "../components/globalStyles";
 import { Icon } from '@iconify/react';
 import hamzaPicture from "../images/hamzaAboutUs.png"
+
 
 
 const IndexPage = () => {
@@ -14,7 +15,7 @@ const IndexPage = () => {
       <div className="sections">
 
         <div className="Section1">
-          <div className="Section1-1 bg-red">
+          <div className="Section1-1">
             <h1>  Hey, <br/>I am <span>Hamza</span></h1>  
             <br/>
             <h1>  I Code From <br/> <span>Back</span> To <span>Front</span></h1>  
